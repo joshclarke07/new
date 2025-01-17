@@ -1,0 +1,88 @@
+/* General Container */
+.container {
+    font-family: "arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+/* Form Styles */
+.form {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title Styles */
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #343a40;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "arial", sans-serif;
+}
+
+/* Input Group */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Label Styles */
+.label {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #495057;
+    text-align: left;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Input Styles */
+.input {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+.button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Show Password Styles */
+.showPasswordCheckbox {
+    margin-top: 10px;
+}
+
+.showPasswordCheckbox:checked ~ #password {
+    -webkit-text-security: none;
+    -text-security: none;
+}
